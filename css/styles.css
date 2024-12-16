@@ -1,0 +1,92 @@
+body {
+  font-family: "Outfit", sans-serif;
+  background: #d5e1ef;
+
+  max-width: 1440px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  padding-bottom: 50px;
+}
+
+.hero-section {
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  border-radius: 20px;
+  padding: 16px 16px 40px 16px;
+  width: 320px;
+
+  box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.05);
+  background: #fff;
+}
+.qr-code-image {
+  margin-bottom: 24px;
+}
+.description-container {
+  padding: 0 16px;
+}
+.qr-code-tittle {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2;
+  color: #1f314f;
+  padding-bottom: 16px;
+}
+.qr-code-text {
+  font-size: 15px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  color: #68778d;
+}
+.page-footer {
+}
+
+.attribution {
+  font-size: 15px;
+  color: #68778d;
+}
+
+.author-link {
+  color: #1f314f;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+.author-link:hover,
+.author-link:focus {
+  color: #0a58ca;
+  text-decoration: underline;
+}
